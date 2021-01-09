@@ -11,7 +11,7 @@ import Contact from './containers/contact'
 import Header from './components/header'
 import Footer from './components/footer'
 import Profile from './containers/profile'
-
+import Enrollment from './containers/enrollment'
 function App() {
   return (
     <div className="App">
@@ -30,6 +30,9 @@ function App() {
             </Route>
             <Route path="/profile">
               <Profile/>
+            </Route>
+            <Route path="/enrollment">
+              <Enrollment name="Jagaran" age="20" email="jagaranmah@gmail.com"/>
             </Route>
           </Switch>
         </div>
